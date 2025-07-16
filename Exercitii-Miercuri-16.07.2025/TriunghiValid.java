@@ -18,7 +18,7 @@ public class TriunghiValid {
         if (a + b > c && a + c > b && b + c > a) {
             System.out.println("✅ Cele 3 laturi pot forma un triunghi valid.");
         } else {
-            System.out.println("❌ Cele 3 laturi NU pot forma un triunghi valid.");
+            System.out.println("Cele 3 laturi NU pot forma un triunghi valid.");
         }
 
         scanner.close();
